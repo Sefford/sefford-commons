@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+ext {
+    versionMajor = 1
+    versionMinor = 0
+    versionPatch = 0
+    versionBuild = 0
+}
+
+group = 'com.sefford'
+version = "${versionMajor}.${versionMinor}.${versionPatch}"
+
+description = 'sefford-commons'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.4'
+}
+
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
