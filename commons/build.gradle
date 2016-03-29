@@ -44,6 +44,9 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters

@@ -1,4 +1,4 @@
-package sefford.com.common.interfaces;
+package com.sefford.common.interfaces;
 
 /**
  * Postable interface done to abstract a notification interface.
